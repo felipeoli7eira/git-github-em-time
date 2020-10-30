@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+
+.social-buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-buttons:last-child
+{
+    margin-bottom: 0;
+}
+
+.social-buttons button
+{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: none;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all .2s;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.social-buttons button:first-child
+{
+    margin-right: 10px;
+}
+
+.social-buttons button:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.social-buttons button img
+{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social-buttons .linkedin
+{
+    background-color: #2378B5;
+}
+
+.social-buttons .github
+{
+    background-color: #25282B;
+}
